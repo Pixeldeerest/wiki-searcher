@@ -4,8 +4,9 @@ The application would parse the subdomain from the url, and use that variable to
 If the page result returned ambiguous results, the expection results (ie: options) would be used as a variable to get a page matching the result - and thus, it's URL.
 If another DisambiguationError was thrown, then that result would be skipped and the program would continue.
 
+Flask was used because of it's accessibility in creating easy-to-use web applications, and it's inherent url routing. Python was used due to it's simple syntax, and so that the developer could continue practicing with the language.
+
 Challenges:
 I had a difficult time trying to implement cURL, naming my server, and using flask's subdomain functionality.
 In the future, I'd like to come back to this application and re-attempt implmenting the subdomain functionality to use as the searchTerm variable.
-
 
