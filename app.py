@@ -12,7 +12,7 @@ if __name__ == "main":
 
 @app.route("/", methods=['GET'])
 def wikisearch_index():
-    url = urlparse("http://ordinary.wiki-search.com")
+    url = urlparse(request.url)
     searchTerm = url.hostname.split('.')[0]
 
     wikiResults = {"links":[]}
